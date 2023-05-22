@@ -1,0 +1,25 @@
+@import 'https://front.googleapis.com/css?family=Comfortaa:400,700|Fredoka+One|Nunito:400,800,900|Poiret+One|Quicksand:400,500,700';
+
+.header-container {
+  display: flex;
+  position:unset;
+  top: 0;
+  right: 0;
+  left: 0;
+  min-height: 70px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 5px 3px 30px #888888;
+  /*@media (max-width: 400px) {
+  flex-wrap: wrap;
+} */
+}
+
+li {
+  display: inline;
+  margin: 30px;
+  font-family: "comfortaa",sans-serif;
+  font-size: 1.2em;
+}

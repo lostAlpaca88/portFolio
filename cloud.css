@@ -1,0 +1,30 @@
+#main-wrapper {
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  img {
+    width: 200px;
+  }
+  
+  .img-wrapper .bibi {
+    height: 160px;
+    width:160px;
+    margin: 20px;
+    border-radius: 100px;
+    
+  }
+  .img-wrapper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+  }
+  .img-wrapper img {
+    display: block;
+    position: absolute;
+  }
+  .img-wrapper:hover {
+    cursor: pointer;
+  }
